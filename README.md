@@ -6,30 +6,39 @@ The system includes user roles, security rules, data population scripts, and adv
 ## 📌 Features
 
 ✔ Clients & Trainers
+
 Store client and trainer profiles
+
 Track goals, notes, demographics, and assigned trainers
 
 ## ✔ Scheduling System
 
 Trainer schedules with availability
+
 Client booking slots
+
 Sessions with types, duration, and status tracking
 
 ## ✔ Progress Tracking
 
 Body measurements
+
 Weight logs
+
 Time-based analytics
 
 ## ✔ Payments & Discounts
 
 Payment history
+
 Package system (sessions, prices, validity)
+
 Discounts and promotion logic
 
 ## ✔ Reviews & News
 
 Client reviews
+
 Trainer news posts with unique constraints
 
 ## ✔ Countries & Phone Codes
@@ -39,8 +48,11 @@ Normalized reference table for international clients
 ## 🛠 Technologies Used
 
 Docker — creates and runs the PostgreSQL environment
+
 DBeaver — used to develop the schema, write SQL, and inspect data
+
 Lucidchart — used for ER-diagram and database visualization
+
 PostgreSQL — main database engine
 
 ## 📜 What the SQL Script Includes
