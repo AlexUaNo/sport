@@ -3,6 +3,7 @@
 This project implements a complete relational database for a personal trainer, including clients, workouts, schedules, payments, progress tracking, and analytical queries.
 The system includes user roles, security rules, data population scripts, and advanced analytics written in SQL.
 
+
 ## 📌 Features
 
 ✔ Clients & Trainers
@@ -11,6 +12,7 @@ Store client and trainer profiles
 
 Track goals, notes, demographics, and assigned trainers
 
+
 ## ✔ Scheduling System
 
 Trainer schedules with availability
@@ -18,6 +20,7 @@ Trainer schedules with availability
 Client booking slots
 
 Sessions with types, duration, and status tracking
+
 
 ## ✔ Progress Tracking
 
@@ -41,9 +44,11 @@ Client reviews
 
 Trainer news posts with unique constraints
 
+
 ## ✔ Countries & Phone Codes
 
 Normalized reference table for international clients
+
 
 ## 🛠 Technologies Used
 
@@ -55,7 +60,9 @@ Lucidchart — used for ER-diagram and database visualization
 
 PostgreSQL — main database engine
 
+
 ## 📜 What the SQL Script Includes
+
 
 **1. Role & User Management**
 
@@ -66,6 +73,7 @@ Schema-level and table-level permissions.
 Restricted access with GRANT/REVOKE rules.
 
 Preparation for possible RLS (Row-Level Security).
+
 
 **2. Schema Creation**
 
@@ -97,6 +105,7 @@ Tables include:
 
 All with foreign keys, cascading rules, unique constraints, and primary keys.
 
+
 **3. Data Population (Randomized)**
 
 The script automatically generates:
@@ -123,6 +132,7 @@ The script automatically generates:
 
 Randomization uses arrays, generate_series, random(), unnest, and cross joins.
 
+
 **4. Role Permissions**
 
 Examples:
@@ -136,6 +146,7 @@ Role	                    Permissions
 `sport_client`	          book sessions, track progress, create reviews
 
 Public access is fully revoked.
+
 
 **5. Analytics & Statistics**
 
