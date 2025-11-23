@@ -14,25 +14,21 @@ Track goals, notes, demographics, and assigned trainers
 
 **✔ Scheduling System**
 
-Trainer schedules with availability
-Client booking slots
-Sessions with types, duration, and status tracking
+Trainer schedules with availability.
+Client booking slots.
+Sessions with types, duration, and status tracking.
 
 
 **✔ Progress Tracking**
 
 Body measurements
-
 Weight logs
-
 Time-based analytics
 
 **✔ Payments & Discounts**
 
 Payment history
-
 Package system (sessions, prices, validity)
-
 Discounts and promotion logic
 
 **✔ Reviews & News**
