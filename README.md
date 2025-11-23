@@ -60,8 +60,11 @@ PostgreSQL — main database engine
 **1. Role & User Management**
 
 Creation of three users: `sport_admin`, `sport_trainer`, `sport_client`.
+
 Schema-level and table-level permissions.
+
 Restricted access with GRANT/REVOKE rules.
+
 Preparation for possible RLS (Row-Level Security).
 
 **2. Schema Creation**
