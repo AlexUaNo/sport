@@ -6,7 +6,7 @@ The system includes user roles, security rules, data population scripts, and adv
 
 ## 📌 Features
 
-✔ Clients & Trainers
+**✔ Clients & Trainers**
 
 Store client and trainer profiles
 
