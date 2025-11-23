@@ -85,9 +85,13 @@ Role	                    Permissions
 Public access is fully revoked.
 
 **5. Analytics & Statistics**
+
 - Advanced SQL for reporting:
+  
 - Revenue and discount analysis
+  
 - Revenue by country
+- 
 - Session type summary
 - Session location distribution (gym / online / outdoor)
 - Payment history with LAG()
