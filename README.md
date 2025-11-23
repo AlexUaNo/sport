@@ -66,7 +66,7 @@ Preparation for possible RLS (Row-Level Security).
 
 **2. Schema Creation**
 
-All objects are created inside the schema: sport.
+All objects are created inside the schema: `sport`.
 
 Tables include:
 `country`
