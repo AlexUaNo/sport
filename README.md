@@ -13,7 +13,7 @@ Store client and trainer profiles
 Track goals, notes, demographics, and assigned trainers
 
 
-## ✔ Scheduling System
+**✔ Scheduling System**
 
 Trainer schedules with availability
 
@@ -22,7 +22,7 @@ Client booking slots
 Sessions with types, duration, and status tracking
 
 
-## ✔ Progress Tracking
+**✔ Progress Tracking**
 
 Body measurements
 
@@ -30,7 +30,7 @@ Weight logs
 
 Time-based analytics
 
-## ✔ Payments & Discounts
+**✔ Payments & Discounts**
 
 Payment history
 
@@ -38,14 +38,14 @@ Package system (sessions, prices, validity)
 
 Discounts and promotion logic
 
-## ✔ Reviews & News
+**✔ Reviews & News**
 
 Client reviews
 
 Trainer news posts with unique constraints
 
 
-## ✔ Countries & Phone Codes
+**✔ Countries & Phone Codes**
 
 Normalized reference table for international clients
 
