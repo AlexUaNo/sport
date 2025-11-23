@@ -69,16 +69,27 @@ Preparation for possible RLS (Row-Level Security).
 All objects are created inside the schema: `sport`.
 
 Tables include:
+
 `country`
+
 `trainer`
+
 `client`
+
 `progress`
+
 `schedule_trainer`
+
 `schedule_client`
+
 `session`
+
 `news`
+
 `package`
+
 `payment`
+
 `discount`
 
 All with foreign keys, cascading rules, unique constraints, and primary keys.
@@ -86,15 +97,25 @@ All with foreign keys, cascading rules, unique constraints, and primary keys.
 **3. Data Population (Randomized)**
 
 The script automatically generates:
+
 `100+ clients`
+
 `200 progress records`
+
 `30 trainer schedule days`
+
 `80 scheduled bookings + 50 more unique bookings`
+
 `50 packages + additional coverage for missing clients`
+
 `50 training sessions`
+
 `20 mixed news items`
+
 `20 randomized reviews with shuffled ratings`
+
 `5 discounts`
+
 `50 payments`
 
 Randomization uses arrays, generate_series, random(), unnest, and cross joins.
@@ -102,9 +123,13 @@ Randomization uses arrays, generate_series, random(), unnest, and cross joins.
 **4. Role Permissions**
 
 Examples:
+
 Role	                    Permissions
+
 `sport_admin`	            full control over schema
+
 `sport_trainer`	          read clients, add news, manage schedules
+
 `sport_client`	          book sessions, track progress, create reviews
 
 Public access is fully revoked.
