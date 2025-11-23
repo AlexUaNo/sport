@@ -9,16 +9,13 @@ The system includes user roles, security rules, data population scripts, and adv
 **✔ Clients & Trainers**
 
 Store client and trainer profiles
-
 Track goals, notes, demographics, and assigned trainers
 
 
 **✔ Scheduling System**
 
 Trainer schedules with availability
-
 Client booking slots
-
 Sessions with types, duration, and status tracking
 
 
