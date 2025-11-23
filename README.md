@@ -6,7 +6,7 @@ The system includes user roles, security rules, data population scripts, and adv
 
 ## 📌 Features
 
-###✔ Clients & Trainers
+**✔ Clients & Trainers**
 
 Store client and trainer profiles
 Track goals, notes, demographics, and assigned trainers
@@ -61,18 +61,18 @@ PostgreSQL — main database engine
 
 **1. Role & User Management**
 
-Creation of three users: `sport_admin`, `sport_trainer`, `sport_client`.
+Creation of three users: `sport_admin`, `sport_trainer`, `sport_client`
 
-Schema-level and table-level permissions.
+Schema-level and table-level permissions
 
-Restricted access with GRANT/REVOKE rules.
+Restricted access with GRANT/REVOKE rules
 
-Preparation for possible RLS (Row-Level Security).
+Preparation for possible RLS (Row-Level Security)
 
 
 **2. Schema Creation**
 
-All objects are created inside the schema: `sport`.
+All objects are created inside the schema: `sport`
 
 Tables include:
 
@@ -152,6 +152,7 @@ Public access is fully revoked.
 - Revenue by country
   
 - Session type summary
+
 - Session location distribution (gym / online / outdoor)
 - Payment history with LAG()
 - Next session reminder using LEAD()
