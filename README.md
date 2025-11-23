@@ -9,6 +9,7 @@ The system includes user roles, security rules, data population scripts, and adv
 **✔ Clients & Trainers**
 
 Store client and trainer profiles
+
 Track goals, notes, demographics, and assigned trainers
 
 
@@ -24,13 +25,17 @@ Sessions with types, duration, and status tracking
 **✔ Progress Tracking**
 
 Body measurements
+
 Weight logs
+
 Time-based analytics
 
 **✔ Payments & Discounts**
 
 Payment history
+
 Package system (sessions, prices, validity)
+
 Discounts and promotion logic
 
 **✔ Reviews & News**
